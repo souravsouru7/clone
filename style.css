@@ -1,0 +1,383 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.categories {
+    margin-right: 20px;
+    font-size: 1.4rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px; /* Adjust the radius to control the curvature */
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 548px; /* Set a maximum width for the search container */
+    margin-right: 20px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 25px; /* Match the border-radius of the container */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.ud-text-sm {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: system-ui;
+    line-height: 1.4;
+    font-size: 1.4rem;
+    word-spacing: 5px; /
+}
+hr{
+    border: thin;
+    height: 1px;
+    background-color: #000;
+    margin: -3px 0 1px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.ud-link {
+    margin-right: 20px; /* Add margin to create space between the links and other text */
+    text-decoration: none; /* Remove underline from the links */
+    color: black; /* Set link color */
+}
+
+.ud-text-sm {
+    font-family: var(--font-stack-text);
+    font-weight: system-ui;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push the icons to the right edge */
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+}
+.a{
+    text-decoration: none;
+    color: black;
+   
+}
+.section-2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    word-spacing: 38px; 
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.4rem;
+    
+
+}
+.border{
+    border: none;
+    height: 1px;
+    background-color: white; /* Set the color to white */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+    margin-top: 12px;
+}
+.img {
+    object-fit: cover;
+    height: 25rem;
+    object-position: center;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 1264px;
+    height: 700px;
+    max-width: 100%;
+    height: auto;
+    max-height: 424px;
+        
+            
+}
+.centre{
+    margin-left: 66px;
+}
+.head{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.02rem;
+    max-width: 36em;
+}
+.my{
+    color: #5624d0;
+    background-color: transparent;
+    min-width: auto;
+    padding: 0;
+    font-weight: bolder;
+ 
+}
+.side{
+    float: right; 
+    margin-top: -60px;
+    margin-right: 142px;
+}
+
+    .black-rectangle {
+        background-color: black;
+        color: white; /* Set the text color to white */
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 87%;
+    }
+    
+    .left-side {
+        flex-grow: 1;
+    }
+    
+    .right-side {
+        display: flex;
+        align-items: right;
+        float: right;
+    }
+    
+    .small-button {
+        background-color: white;
+        color: black; /* Set the button text color to black */
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    .ssmall-button {
+        background-color: black;
+        color: white; /* Set the button text color to black */
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    .text-inside-box{
+        margin-bottom: 2.4rem;
+        font-family: var(--font-stack-heading-serif);
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 1.25;
+        letter-spacing: -.05rem;
+        max-width: 36em;
+    }
+    h4{
+        margin-bottom: 2.4rem;
+        font-family: var(--font-stack-heading-serif);
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 1.25;
+        letter-spacing: -.05rem;
+        max-width: 36em;
+        position: absolute;
+        
+
+    }
+    .box{
+        height: 250px;
+        width: 85%;
+        border: 1px solid #e1e5e8;
+        background-color:#dcddd5;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding: 2.4rem;
+        display: flex;
+    }
+    .sql{
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: -.02rem;
+        font-size: 1.9rem;
+        max-width: 36em;
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .master{
+        font-weight: 100;
+        font-size: medium;
+    }
+    .autor{
+        font-size: 1.2rem;
+        margin-top: -9px;
+    
+    }
+    .checked{
+        color: orange;
+    }
+    .fa-star {
+        font-size: 17px; /* Adjust the size as needed */
+    }
+.recommended-text{
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 2.4rem;
+    max-width: 36em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card-description {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 15px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.recm {
+    border: 1px solid #d1d7dc;
+    color: #2d2f31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 1rem; /* Adjust padding as needed */
+    margin: 0 5px; /* Adjust margin as needed */
+    width: 2px;
+}
+.custom-box {
+    width: 100%;
+    height: 55px;
+    background-color: #3498db; /* Change the background color as needed */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    line-height: 55px; /* Center text vertically */
+}
+.foo{
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 25px;
+    max-width: 36em;
+}
+
+
+/* Add this CSS to your existing styles or in a separate stylesheet */
+
+.image-container {
+    display: flex;
+    align-items: center; /* Vertically center the images */
+    justify-content: flex-start; /* Align to the left */
+}
+
+.image-container img {
+    margin-right: 10px; /* Add spacing between the images if needed */
+}
+
+
+
+.light-white-hr {
+    border-color: rgb(255, 255, 255) !important;
+}
+.last {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underlines from links */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+    font-weight: bold; /* Make the text bold (optional) */
+    display: block; /* Change the display property to block */
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.last:hover {
+    text-decoration: underline; /* Add underline on hover (optional) */
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
